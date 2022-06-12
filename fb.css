@@ -1,0 +1,25 @@
+.bg-light{
+		background-color: #f0f2f5 !important;
+}
+.container{
+	max-width: 1140PX;
+}
+#animate {background-color:transparent; animation: 
+		 pulse 3s ease infinite alternate,nudge 5s linear infinite alternate; border-radius: 100%;}@keyframes nudge {0%, 100% {
+		transform: translate(0, 0); } 50% { transform: translate(150px, 0);}80% { transform: translate(-150px, 0); } }
+		
+@media (min-width: 550px) and (max-width: 750px) {
+  html,
+  body,
+  .intro {
+    height: 750px;
+  }
+}
+
+@media (min-width: 800px) and (max-width: 850px) {
+  html,
+  body,
+  .intro {
+    height: 750px;
+  }
+}
